@@ -3,5 +3,5 @@ const myObj = JSON.parse(myJSON);
 
 let text = "";
 for (const x in myObj) {
-  text += x + ", ";
+  text += x + ",. ";
 }
